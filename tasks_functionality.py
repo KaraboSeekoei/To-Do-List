@@ -8,7 +8,6 @@ def new_page():
         writer.writerow(tasks)
         print(f"{task} has been added")
         
-
 def view_tasks():
     with open("tasks.csv", "r") as file:
         reader = csv.reader(file)
@@ -19,3 +18,7 @@ def view_tasks():
         else:
             for index, row in enumerate(tasks, start=1):
                 print(f"{index}. {row[0]}")
+
+def delete_task():
+    view_tasks()
+    d_input = input('Which task do you want to delete? : ')
