@@ -3,5 +3,7 @@ user_input = input("What are we doing today?\n1. Enter new task\n2. View task \n
 def features():
         if user_input == "1":
             tasks_functionality.new_page()
+        elif user_input == "2":
+              tasks_functionality.view_tasks()
         # return
 features()
