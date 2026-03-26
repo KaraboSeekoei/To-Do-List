@@ -33,3 +33,20 @@ def create_task(task: Task):
 @app.get("/tasks")
 def get_tasks():
     return {"tasks": tasks}
+
+@app.get("/tasks/{task_id}")
+def get_task(task_id: int):
+    for task in tasks:
+        if task["id"] == task_id:
+            return {"task": task}
+    return {"message": "Task not found"}
+
+@app.delete("/tasks/{task_id}")
+def delete_task(task_id):
+    global tasks
+    original_len = len(tasks)
+    tasks = [task for task in tasks if task["id"] != task_id]
+    
+    if len(tasks) == original_len:
+        return {"message": "Task not found"}
+    return {"message": "Task deleted successfully"}

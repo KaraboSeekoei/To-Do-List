@@ -1,52 +1,7 @@
 [
     {
         "id": 1,
-        "title": "Learn FastAPI",
-        "completed": false
-    },
-    {
-        "id": 2,
-        "title": "Learn FastAPI",
-        "completed": false
-    },
-    {
-        "id": 3,
-        "title": "Learn FastAPI",
-        "completed": false
-    },
-    {
-        "id": 4,
-        "title": "Learning automation with python",
-        "completed": false
-    },
-    {
-        "id": 5,
-        "title": "hewvfh",
-        "completed": false
-    },
-    {
-        "id": 6,
-        "title": "dqwer",
-        "completed": true
-    },
-    {
-        "id": 7,
-        "title": "acdq",
-        "completed": false
-    },
-    {
-        "id": 8,
-        "title": "dejj",
-        "completed": false
-    },
-    {
-        "id": 9,
-        "title": " c.qkw,je",
-        "completed": true
-    },
-    {
-        "id": 10,
-        "title": "qnEW",
+        "title": "Hey",
         "completed": false
     }
 ]
